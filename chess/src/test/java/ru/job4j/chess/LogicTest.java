@@ -35,7 +35,6 @@ public class LogicTest {
         logic.move(Cell.C1, Cell.H6);
     }
 
-
     @Ignore
     @Test(expected = ImpossibleMoveException.class)
     public void moveImpossibleMoveException()

@@ -25,7 +25,8 @@ public final class Logic {
           for (Figure figure : figures) {
               if (figure != null) {
                   for (int i = 0; i < steps.length; i++) {
-                      if (figure.position().getX() == steps[i].getX() && figure.position().getY() == steps[i].getY()) {
+                      if (figure.position().getX() == steps[i].getX()
+                              && figure.position().getY() == steps[i].getY()) {
                           throw new OccupiedCellException();
                       }
                   }
