@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 
 public final class Logic {
+
     private final Figure[] figures = new Figure[32];
     private int index = 0;
 
